@@ -1,0 +1,20 @@
+# Android Studio 忽略项
+.gradle/
+.idea/
+*.iml
+local.properties
+
+# 密钥和敏感文件
+# 忽略env 文件
+app/src/main/assets/env
+
+# 构建文件
+/build/
+/app/build/
+*.apk
+
+# 密钥文件
+*.keystore
+*.jks
+
+**/env
